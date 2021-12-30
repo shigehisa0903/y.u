@@ -266,6 +266,7 @@ form h2 {
 #login #form-detail {
     background: #fff;
     border: 1px solid #000;
+    border-radius: 10px;
 }
 
 .id_select input,
