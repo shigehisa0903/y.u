@@ -105,6 +105,11 @@ header h1 {
     opacity: 0;
 }
 
+#menuList li :hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
 #menuList.clicked {
     position: fixed;
     left: 50%;
@@ -171,6 +176,7 @@ header h1 {
 .fa-twitter {
     color: white;
     font-size: 30px;
+    padding-top: 5px;
 }
 
 .fa-arrow-up {
@@ -210,6 +216,11 @@ header h1 {
     
 }
 
+.category :hover {
+    transform: scale(1.05);
+    transition: .5s; 
+} 
+
 .category-title_1,
 .category-title_2,
 .category-title_3 {
@@ -231,4 +242,55 @@ footer {
     margin-top: 30px;
     font-size: 10px;
     font-weight: bold;
+}
+
+
+
+
+/* ログインページ */
+
+#login {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form {
+    margin: 20px 0; 
+}
+
+form h2 {
+    margin-bottom: 20px;
+}
+
+#login #form-detail {
+    background: #fff;
+    border: 1px solid #000;
+}
+
+.id_select input,
+.pass_select input {
+    border: 1px solid #000;
+    margin: 10px 0;
+}
+
+
+
+.back-top a {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.back-top :hover {
+    background: #ddd;
+    transition: .5s;
+}
+
+.btn {
+    display: block;
+    margin: 10px auto;
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 5px;
 }
