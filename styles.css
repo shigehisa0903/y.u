@@ -249,8 +249,15 @@ footer {
 
 /* ログインページ */
 
+#login p {
+    font-size: 1.3rem;
+}
+#login div {
+    font-size: 1.2rem;
+}
+
 #login {
-    width: 600px;
+    width: 300px;
     margin: 0 auto;
     text-align: center;
 }
@@ -265,14 +272,15 @@ form h2 {
 
 #login #form-detail {
     background: #fff;
-    border: 1px solid #000;
-    border-radius: 10px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 .id_select input,
 .pass_select input {
     border: 1px solid #000;
-    margin: 10px 0;
+    margin-bottom: 20px;
 }
 
 
@@ -284,14 +292,19 @@ form h2 {
 }
 
 .back-top :hover {
-    background: #ddd;
-    transition: .5s;
+    background: rgb(206, 205, 205);
+    transition: .3s;
 }
 
 .btn {
     display: block;
-    margin: 10px auto;
+    margin: 0 auto;
     border: 1px solid #000;
     border-radius: 8px;
-    padding: 5px;
+    padding: 5px 10px;
+    transition: .3s;
+}
+
+.btn:hover {
+    background: rgb(206, 204, 204);
 }
